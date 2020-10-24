@@ -17,7 +17,7 @@ function App() {
     <div className="arrow_box" id="chatter">
       <div className="talk_box" id="chatspace"></div>
       <div className="type_box">
-        <form className="type_box-inner" action="javascript:void(0);">
+        <form className="type_box-inner">
           <input className="typespace" id="typespace-id" type="text" placeholder="Wanna talk with BOcT? Then type here..!" autoComplete="off"/>
           <button className="typespace-enter" id="typespace-enter-id" type="submit">
             <svg viewBox="0 0 448 512"><path id="svg1"/></svg>
