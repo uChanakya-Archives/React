@@ -31,6 +31,9 @@
   box-sizing: border-box;
   transition: all 0.1s linear;
 }
+#root{
+  height: 100%;
+}
 
 body, html{
   background-color: var(--blk-in-dark);
