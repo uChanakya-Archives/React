@@ -2,25 +2,21 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
-import Load from './loading';
+import Load from './Loading';
+//import Setting from './Settings';
 import * as serviceWorkerRegistration from './serviceWorkerRegistration';
 
 ReactDOM.render(
-  <React.StrictMode>
-    <Load />
-  </React.StrictMode>,
+    <Load />,
   document.getElementById('root')
 );
 
 window.addEventListener('load', () => { setTimeout(()=>{
   ReactDOM.render(
-    <React.StrictMode>
-      <App />
-    </React.StrictMode>,
+      <App />,
     document.getElementById('root')
   );
 }, 2173) });
-
 
 // If you want your app to work offline and load faster, you can change
 // unregister() to register() below. Note this comes with some pitfalls.

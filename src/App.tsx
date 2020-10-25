@@ -34,11 +34,11 @@ const AboutBox = ()=>{
         <legend>About BOcT</legend>
         <div className="aboutbtns">
           <button id="settingg" title="Settings">
-          <svg viewBox="0 0 512 512"><path d={svg.settingBtn}/></svg></button>
+            <svg viewBox="0 0 512 512"><path d={svg.settingBtn}/></svg></button>
           <button id="i-btn" title="Info">
-          <svg viewBox="0 0 512 512"><path d={svg.infoBtn}/></svg></button>
+            <svg viewBox="0 0 512 512"><path d={svg.infoBtn}/></svg></button>
           <button className="toggleTheme" data-themenow="dark" title="Toggle Dark/Light Mode">
-          <svg viewBox="0 0 512 512"><path d={svg.themeBtn}/></svg></button>
+            <svg viewBox="0 0 512 512"><path d={svg.themeBtn}/></svg></button>
         </div>
         <p className="releaseVer">v{version.main} | {version.release}</p>
         <hr/>
